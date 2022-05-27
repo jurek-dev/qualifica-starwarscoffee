@@ -1,0 +1,1 @@
+Esta pasta armazena todas as imagens que foram utilizadas na página web.
