@@ -1,6 +1,6 @@
 var button = document.getElementById("play-theme").addEventListener("click", playMusic);
 var playingSound = false;
-var audio = new Audio('/musics/imperialmarch.mp3')
+var audio = new Audio('musics/imperialmarch.mp3')
 
 function playMusic() {
     if(playingSound == false){

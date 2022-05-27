@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.navbar-custom {
+    color: #FFF;
+    background-color: #000;
+}
+
 .content {
     margin-top: 10vh;
     text-align: center;
@@ -10,7 +15,7 @@
 
 .no-oficial {
     margin-top: 10vh;
-    background-color: #04513A;
+    background-color: #000;
     color: #fff;
     padding: 10vh;
     text-align: center;
