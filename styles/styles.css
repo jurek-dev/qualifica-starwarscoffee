@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.margin-button {
+    margin-bottom: 2vh;
+}
+
 .no-oficial {
     margin-top: 10vh;
     background-color: #04513A;

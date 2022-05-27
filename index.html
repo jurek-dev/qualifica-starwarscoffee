@@ -23,7 +23,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Início</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                   </li>
                   <li class="nav-item">
                     <button type="button" id="play-theme" class="btn btn-warning"><span id="onoff-text">Tocar música</span></button>
@@ -72,19 +72,19 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid no-oficial">
+        <div id="contato" class="container-fluid no-oficial">
           <div class="row">
             <div class="col-12">
               <img src="images/bb8.png" alt="Ilustração de uma xícara de chá" width="200px">
               <h1>Entre em contato</h1>
-              <form action="">
+              <form action="/form-submit.html">
                 <div class="username">
                   <label for="username">Nome completo:</label><br/>
-                  <input id="username" type="text" placeholder="Digite seu nome"/>
+                  <input id="username" type="text" required placeholder="Digite seu nome"/>
                 </div>
                 <div class="message">
                   <label for="message">Mensagem:</label><br/>
-                  <textarea id="message" cols="30" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+                  <textarea id="message" cols="30" rows="5" required placeholder="Escreva sua mensagem..."></textarea>
                 </div>
                 <div class="submit">
                   <input type="submit" class="btn btn-primary" value="Enviar">
