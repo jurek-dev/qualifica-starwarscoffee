@@ -1,0 +1,7 @@
+/*
+ * Estilização de tags herdeiras da classe button-position.
+*/
+.button-position {
+    text-align: center;
+    margin-bottom: 2vh;
+}
