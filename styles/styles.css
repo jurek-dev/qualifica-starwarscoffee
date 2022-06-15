@@ -1,18 +1,15 @@
+/*
+ * Aplição de estilização em todas as tags.
+*/
 * {
     margin: 0;
     padding: 0;
 }
 
-.content {
-    margin-top: 10vh;
-    text-align: center;
-}
-
-.margin-button {
-    margin-bottom: 2vh;
-}
-
-.no-oficial {
+/*
+ * Estilização de tags herdeiras da classe content-primary.
+*/
+.content-primary {
     margin-top: 10vh;
     background-color: #04513A;
     color: #fff;
@@ -20,22 +17,45 @@
     text-align: center;
 }
 
-.image-margin {
+/*
+ * Estilização de tags herdeiras da classe content-secondary.
+*/
+.content-secondary {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+/*
+ * Estilização padrão de margin inferior a tags IMG herdeiras da classe image-marin.
+*/
+img .image-margin {
     margin-bottom: 2vh;
 }
 
+/*
+ * Estilização específica para celulares e dispositivos menores com resolução mínima de 576 pixels de largura.
+*/
 @media (min-width: 576px) {
-
+    /* Não aplicado. */
 }
 
+/*
+ * Estilização específica para celulares, tablets e dispositivos maiores com resolução mínima de 768 pixels de largura.
+*/
 @media (min-width: 768px) {
-
+    /* Não aplicado. */
 }
 
+/*
+ * Estilização específica para laptops, monitores e dispositivos maiores com resolução mínima de 992px pixels de largura.
+*/
 @media (min-width: 992px) {
-
+    /* Não aplicado. */
 }
 
+/*
+ * Estilização específica para monitores, televisões e dispositivos maiores com resolução mínima de 1200 pixels de largura.
+*/
 @media (min-width: 1200px) {
-
+    /* Não aplicado. */
 }
