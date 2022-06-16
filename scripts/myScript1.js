@@ -1,7 +1,11 @@
+// Declaração de variáveis
 var button = document.getElementById("play-theme").addEventListener("click", playMusic);
 var playingSound = false;
 var audio = new Audio('musics/imperialmarch.mp3')
 
+/*
+ * Função de tocar/parar música.
+*/
 function playMusic() {
     if(playingSound == false){
         playingSound = true;
